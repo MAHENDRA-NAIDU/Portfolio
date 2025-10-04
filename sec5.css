@@ -1,0 +1,100 @@
+.sec-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    padding-top: 50px; 
+    background-color: #f8f8f8;
+    margin: auto;
+}
+.sec-5-1{
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+}
+.sec-5-1 > :nth-child(1) {
+    font-weight: 600;
+    font-size:  15px;
+}
+.sec-5-1 > :nth-child(2) {
+    font-weight: 700;
+    font-size:  40px;
+}
+.sec-5-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    gap: 10px;
+    padding:  20px;
+    margin: 20px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 170px;
+}
+.box-4-1{
+    display: flex;
+}
+.box-4-1 img{
+    height:  30px;
+    width: 30px;
+}
+.box-4-1 h2{
+    margin-left:  10px;
+    font-weight:  600;
+}
+.box-4-2{
+    display: flex;
+}
+.box-4-2 img{
+    height: 30px;
+    width: 30px;
+    
+}
+.box-4-2 h2{
+    margin-left:  10px;
+    font-weight:  600;
+}
+/* Responsive adjustments for Contact (Section 5) */
+@media (max-width: 1024px) {
+    .sec-5 {
+        height: auto; /* Allow section height to grow with content */
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .sec-5-2 {
+        height: 180px;
+        width: 600px;
+    }
+    .box4 {
+        margin: 20px auto; /* Center the box */
+        margin-left: 50pxpx;
+        width: 80%;
+        max-width: 500px;
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Stack the contact details within the box */
+    .box4 {
+        flex-direction: column;
+        gap: 15px;
+        height: 110px;
+    }
+    .box-4-1, .box-4-2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .box-4-1 h2, .box-4-2 h2 {
+        margin-left: 0;
+        font-size: 16px; /* Reduce font size on small screens */
+    }
+}

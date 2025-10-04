@@ -1,0 +1,265 @@
+.sec-2{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 0px;
+    background-color: #ffffff;
+}
+.sec-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.sec-2-2{
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+    font-weight: 600;
+    display: flex;
+}
+.sec-2-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#exp{
+    color: darkorange;
+}
+#edu{
+    color: darkorange;
+}
+.sec-2-2-1 img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.sec-2-2-2 p{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sec-2-2-2-1{
+    display: flex;
+    gap: 20px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:  20px;
+    margin: 20px;
+    margin-left: 50px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+
+
+}
+.box:hover {
+    transform: scale(1.05);
+    
+}
+.box > :nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+}
+.box > :nth-child(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+.box > :nth-child(4) {
+    font-size: 20px;
+    font-weight: 300;
+}
+.p1{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+@media (max-width: 1024px) {
+    .sec-2{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-left: 0px;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.sec-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.sec-2-2{
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+    align-items: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+}
+.sec-2-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.sec-2-2-1 img {
+    border-radius: 50%;
+    display: block;
+    margin-left: 0px;
+    
+}
+.sec-2-2-2 p{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+.sec-2-2-2-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+
+}
+.box:hover {
+    transform: scale(1.05);
+    
+}
+.box > :nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+}
+.box > :nth-child(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+.box > :nth-child(4) {
+    font-size: 20px;
+    font-weight: 300;
+}
+.p1{
+    text-align: center;
+}
+}
+@media (max-width: 767px) {
+    .sec-2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-left: 0px;
+}
+.sec-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.sec-2-2{
+    gap: 30px;
+}
+.sec-2-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.sec-2-2-1 img {
+    border-radius: 50%;
+    display: block;
+    margin-left: 0px;
+    
+}
+.sec-2-2-2 p{
+    text-align: center;
+
+
+}
+.sec-2-2-2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+
+}
+.box:hover {
+    transform: scale(1.05);
+    
+}
+.box > :nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+}
+.box > :nth-child(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+.box > :nth-child(4) {
+    font-size: 20px;
+    font-weight: 300;
+}
+.p1{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+}
